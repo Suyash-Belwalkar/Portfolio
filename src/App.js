@@ -6,6 +6,7 @@ import Contact from './containers/contact';
 import Portfolio from './containers/portfolio';
 import Resume from './containers/resume';
 import Skills from './containers/skills';
+import Navbar from './components/navBar';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       {/*particle js*/}
 
       {/* navBar */}
-
+        <Navbar/>
       {/* main page content*/}
 
       <Routes>
